@@ -1,4 +1,4 @@
-import { log } from 'console';
+
 import * as fs from 'fs/promises'
 
 
@@ -6,8 +6,8 @@ async function  greet(){
  
 try{
 
- //await fs.writeFile('well.txt',"Hello")
- //console.log("yes");
+ await fs.writeFile('well.txt',"Hello")
+ console.log("yes");
 
  //await fs.readFile('well.txt', 'utf-8')
  //console.log("its running readfile");
